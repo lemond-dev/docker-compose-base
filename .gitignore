@@ -1,0 +1,82 @@
+# Docker 数据持久化目录（重要！）
+data/
+data/*
+!data/.gitkeep
+
+# 环境变量文件（可能包含敏感信息）
+.env
+.env.local
+.env.*.local
+*.env
+
+# 日志文件
+*.log
+logs/
+*.logs
+
+# Docker 相关
+docker-compose.override.yml
+.dockerignore
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+tmp/
+temp/
+
+# 备份文件
+*.sql
+*.sql.gz
+*.dump
+*.rdb
+
+# 证书和密钥文件
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# 可能的 Go 项目文件（如果有 Go 代码）
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+vendor/
+bin/
+*.test
+*.out
+go.work
+go.work.sum
+
+# 其他
+.cache/
+*.pid
+*.sock
+
